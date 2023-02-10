@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script>
+ tailwind.config = {
+      theme: {
+        fontFamily: {
+            poppins: ["Poppins", "sans-serif"]
+        }
+      }
+    }
+</script>
+</head>
+<body class="mx-40 font-poppins">
+    
+   <nav class="flex flex-row justify-between my-8"> 
+   <div>
+    <h1 class="text-2xl font-semibold">Abhiram RV</h1>
+   </div>
+   <div class="flex flex-row gap-6">
+    <a>About me</a>
+   <a>Sup</a>
+   <a>Science Bitch</a>
+</div>
+   </nav>
+
+   <main class="flex flex-row items-center justify-between">
+   <div class="flex flex-col items-center basis-2/3 gap-7">
+        <h1 class="font-bold text-5xl">Hey! I'm Abhiram.</h1>
+        <p class="text-lg">Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body. Cancer can start almost anywhere in the human body, which is made up of trillions of cells. Normally, human cells grow and multiply (through a process called cell division) to form new cells as the body needs them.</p>
+        <div>
+            <button class="gap-5 bg-blue-400 btn px-2 py-2 rounded-md text-white">View Linkedin</button>
+            <button class="gap-5 bg-blue-400 btn px-2 py-2 rounded-md text-white">View github</button>
+        </div>
+    </div>
+   <div class="basis-1/3">
+        <img src="811658.jpg" class="w-72 h-500 hover:scale-110 transition duration-5" alt="Path is incorrect">
+   </div>
+</main>
+</body>
+</html>
